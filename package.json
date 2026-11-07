@@ -1,0 +1,14 @@
+{
+  "name": "liniya-dental",
+  "version": "3.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Интерактивное расписание, выбор услуги и времени, обзор визита, экспорт в календарь и помощник по услугам клиники.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "check": "node --check server.mjs && node --check public/app.js"
+  }
+}
